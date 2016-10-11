@@ -8,7 +8,7 @@
 // 82 + 22 = 68
 // 62 + 82 = 100
 // 12 + 02 + 02 = 1
-public class Solution {
+public class HappyNumber {
     private int getNextHappy(int n) {
         int sum = 0;
         while (n != 0) {
